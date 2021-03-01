@@ -1,0 +1,653 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Adedriloth GUI</name>
+    </assembly>
+    <members>
+        <member name="M:Adedriloth_GUI.AttackCommand.#ctor">
+            <summary>
+            Attack Command receive the user's input and process to tell the hero attack the enemy
+            Either using the default attack or using the weapon
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.AttackCommand.Execute(Adedriloth_GUI.Hero,System.String[])">
+            <summary>
+            Process the attack command and return the result of attack
+            </summary>
+            <param name="h">hero</param>
+            <param name="text">command</param>
+            <returns>result of attack</returns>
+        </member>
+        <member name="M:Adedriloth_GUI.AttackCommand.FetchEnemy(Adedriloth_GUI.Hero,System.String)">
+            <summary>
+            Fetch Enemy In Location
+            </summary>
+            <param name="eId">Targeted Enemy</param>
+            <returns>Enemy Found</returns>
+        </member>
+        <member name="M:Adedriloth_GUI.AttackCommand.FetchAttacker(Adedriloth_GUI.Hero,System.String)">
+            <summary>
+            Fetch things that cause damage
+            </summary>
+            <param name="h">hero</param>
+            <param name="wId">ID of things that cause damage</param>
+            <returns></returns>
+        </member>
+        <member name="M:Adedriloth_GUI.AttackCommand.AttackThisEnemy(Adedriloth_GUI.CanCauseDamage,Adedriloth_GUI.Enemy)">
+            <summary>
+            Hit the targetted enemy and return result of attack
+            </summary>
+            <param name="h">thing that cause damage</param>
+            <param name="eneFound">targetted enemy</param>
+            <returns>result of attack</returns>
+        </member>
+        <member name="T:Adedriloth_GUI.CastingHandler">
+            <summary>
+            Casting Command is a special kind-of command, which help Spell-type hero to cast different type of spell
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.CastingHandler.Execute(Adedriloth_GUI.Hero,System.String[])">
+            <summary>
+            Process the command and tell the valid spell cast to execute the its effect
+            </summary>
+            <param name="h">Hero h, who specify the casting command</param>
+            <param name="text">The command</param>
+            <returns>resutls of the casting command</returns>
+        </member>
+        <member name="M:Adedriloth_GUI.CastingHandler.AddSpellCastList(Adedriloth_GUI.SpellCast)">
+            <summary>
+            Add all the Spell Casting Command in the Spell Cast List
+            </summary>
+            <param name="s"></param>
+        </member>
+        <member name="T:Adedriloth_GUI.Command">
+            <summary>
+            The Command which Hero can make
+            </summary>
+        </member>
+        <member name="T:Adedriloth_GUI.CommandHandler">
+            <summary>
+            command processor will contain a list of Command objects (one of each kind of Command). 
+            This can be used to execute the user's commands. When execute "a command" is
+            given to the Command Processor, it searches for a command that is identified by the first word,
+            then tells it to execute the text.
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.CommandHandler.Execute(Adedriloth_GUI.Hero,System.String[])">
+            <summary>
+            searches for a command that is identified by the first word,
+            then tells it to execute the text
+            </summary>
+            <param name="stu"></param>
+            <param name="cmd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Adedriloth_GUI.CommandHandler.AddCmdList(Adedriloth_GUI.Command)">
+            <summary>
+            Add different type of command into command list
+            </summary>
+            <param name="c">Command c is added in command list</param>
+        </member>
+        <member name="T:Adedriloth_GUI.GameObject">
+            <summary>
+            Game Object class will be used to represent anything that the player can interact with
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.GameObject.Name">
+            <summary>
+            The Name of the object
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.GameObject.ShortDescription">
+            <summary>
+            The Short Version Description of the object included: Name and Id
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.GameObject.FullDescription">
+            <summary>
+            The Long Version Description of the Object
+            </summary>
+        </member>
+        <member name="T:Adedriloth_GUI.Inventory">
+            <summary>
+            The Inventory is object, used to contains a collection of Items
+            Support container object to check item insided, add more items or take items out
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.Inventory.HasItem(System.String)">
+            <summary>
+            Check if the Inventory contain a certain item in itself
+            </summary>
+            <param name="itemId">Id of the item which will be search</param>
+            <returns>return true if the item is found and false if unfound</returns>
+        </member>
+        <member name="M:Adedriloth_GUI.Inventory.Put(Adedriloth_GUI.Item)">
+            <summary>
+            Put/Add a particular item inside the caller's invetory
+            </summary>
+            <param name="itm">the itm item which is added</param>
+        </member>
+        <member name="M:Adedriloth_GUI.Inventory.Take(System.String)">
+            <summary>
+            Search through all the items inside the inventory and return the item found
+            also delete the item found inside the inventory
+            </summary>
+            <param name="id">id of Item which will be searched</param>
+            <returns>return item if found or return null if unfound</returns>
+        </member>
+        <member name="M:Adedriloth_GUI.Inventory.Fetch(System.String)">
+            <summary>
+            Search through all the items inside the inventory and return the item found
+            </summary>
+            <param name="id">id of Item which will be searched</param>
+            <returns>return item if found or return null if unfound</returns>
+        </member>
+        <member name="P:Adedriloth_GUI.Inventory.ItemList">
+            <summary>
+            Return the description of all the items in the inventory
+            </summary>
+        </member>
+        <member name="T:Adedriloth_GUI.Item">
+            <summary>
+            Item can be interacted which Hero in certain way: put in, take out from the Inventory
+            </summary>
+        </member>
+        <member name="T:Adedriloth_GUI.Location">
+            <summary>
+            Location knows what it contain, which path the hero can go to
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.Location.LocateSth(System.String)">
+            <summary>
+            check if it is player/container or not, if not then execute to search in the 
+            inventory and return that item/object; every object have their own function description
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Adedriloth_GUI.Enemy.FullDescription">
+            <summary>
+            Full Information of the Enemy: Name, HP
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.Enemy.Destroyed(Adedriloth_GUI.Character)">
+            <summary>
+            Enemy died and removed out of the game
+            </summary>
+            <param name="c"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Adedriloth_GUI.EnemyManager.EnemyGenerating(Adedriloth_GUI.Location)">
+            <summary>
+            Generating Enemy in particular room
+            </summary>
+            <param name="room"></param>
+        </member>
+        <member name="M:Adedriloth_GUI.EnemyManager.GenerateSlime(Adedriloth_GUI.Location)">
+            <summary>
+            Generating Slime Enemy
+            </summary>
+            <param name="room"></param>
+        </member>
+        <member name="M:Adedriloth_GUI.EnemyManager.GenerateGoblin(Adedriloth_GUI.Location)">
+            <summary>
+            Generate Monster Enemy
+            </summary>
+            <param name="room"></param>
+        </member>
+        <member name="M:Adedriloth_GUI.EnemyManager.RemoveEnemy(Adedriloth_GUI.Enemy)">
+            <summary>
+            Remove Enemy when its die
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Adedriloth_GUI.ExplosionCast.FetchEnemy(Adedriloth_GUI.Hero,System.String)">
+            <summary>
+            Fetch Enemy In Location
+            </summary>
+            <param name="eId">Targeted Enemy</param>
+            <returns>Enemy Found</returns>
+        </member>
+        <member name="M:Adedriloth_GUI.ExplosionCast.ExploseThisEnemy(Adedriloth_GUI.SpellHero,Adedriloth_GUI.Enemy,Adedriloth_GUI.Spell)">
+            <summary>
+            Cast the spell effect
+            </summary>
+            <param name="s">Hero</param>
+            <param name="e">Targetted Enenmy</param>
+            <param name="spell">Spell</param>
+            <returns></returns>
+        </member>
+        <member name="T:Adedriloth_GUI.HeroManager">
+            <summary>
+            control and manage hero, allow the player to switch hero
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.HeroManager.#ctor">
+            <summary>
+            create 2 hero object and assign the default hero to be the Spell Type
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.HeroManager.Instance">
+            <summary>
+            Apply the Singleton Patten, create object itself if the object doesn't exist
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.HeroManager.SwitchHero">
+            <summary>
+            Check and switch the hero
+            </summary>
+        </member>
+        <member name="T:Adedriloth_GUI.CanCauseDamage">
+            <summary>
+            Interface for object which can attack/hit the others
+            </summary>
+        </member>
+        <member name="T:Adedriloth_GUI.Slime">
+            <summary>
+            The normal enemy has all the details about himself 
+            (health, the location, Its able to attack, hits taken and if its destroyed)
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.Slime.Hit(Adedriloth_GUI.Character)">
+            <summary>
+            Attack the hero
+            </summary>
+            <param name="c">Hero</param>
+            <returns>Result of attack</returns>
+        </member>
+        <member name="T:Adedriloth_GUI.SwitchCommand">
+            <summary>
+            Switching command allow user to switch hero
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.AdedrilothFm.#ctor">
+            <summary>
+            Defautl Constructor
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.AdedrilothFm.Init">
+            <summary>
+            Initialize the map data, hero inventory
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.AdedrilothFm.UI">
+            <summary>
+            Initialize the design of the program
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.AdedrilothFm.LoadImage(Adedriloth_GUI.Location)">
+            <summary>
+            Load the images corresponded to the Hero location
+            </summary>
+            <param name="loc"></param>
+        </member>
+        <member name="F:Adedriloth_GUI.AdedrilothFm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.AdedrilothFm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Adedriloth_GUI.AdedrilothFm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:Adedriloth_GUI.MeleeHero">
+            <summary>
+            Type of Hero: attack melee damage
+            </summary>
+        </member>
+        <member name="T:Adedriloth_GUI.SpellCast">
+            <summary>
+            SpellCast is similar to Command, however, Command is general action which can be perform for any type of hero
+            Meanwhile Spellcast is designed only for Spell Hero. By Abstraction, Casting a spell is not a command, it is a Spell casting
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.SpellCast.FetchSpell(Adedriloth_GUI.SpellHero,System.String)">
+            <summary>
+            Locate spell which the Spell Hero has learned
+            </summary>
+            <param name="s"></param>
+            <param name="spellId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Adedriloth_GUI.SpellHero">
+            <summary>
+            Spell Hero is a type of hero, which is able to cast spell
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.SpellHero.LocateSpell(System.String)">
+            <summary>
+            Search and return the spell if found, else return null
+            </summary>
+            <param name="spellId">Id of Spell need to be searched</param>
+            <returns>return the spell if found or null if unfound</returns>
+        </member>
+        <member name="P:Adedriloth_GUI.SpellHero.SpellBook">
+            <summary>
+            The Spell Book of Hero
+            </summary>
+        </member>
+        <member name="T:Adedriloth_GUI.TrapRoom">
+            <summary>
+            Special Location, which reduce hero health
+            </summary>
+        </member>
+        <member name="T:Adedriloth_GUI.Weapon">
+            <summary>
+            Type of Weapon, which can cause a certain damage for the object, which is hitted
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.Weapon.Hit(Adedriloth_GUI.Character)">
+            <summary>
+            Hit a certain enemy and reduce its health
+            </summary>
+            <param name="e">Targetted enemy e, which is hitted</param>
+        </member>
+        <member name="T:Adedriloth_GUI.Explosion">
+            <summary>
+            Type of Spell that cause explosion on the target and cause damage
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.Explosion.Cast(System.Object,System.Object)">
+            <summary>
+            Effect of the Spell, process on the target
+            </summary>
+            <param name="sHero"></param>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Adedriloth_GUI.Spell">
+            <summary>
+            Spell know its Skill Level, its description
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.Spell.CastingChance">
+            <summary>
+            Calculate the successful chance when a spell is casting and return whether the spell is casted success or not
+            </summary>
+            <returns>return true if spell is casted success and return false if not</returns>
+        </member>
+        <member name="T:Adedriloth_GUI.SpellBook">
+            <summary>
+            Spell Book contain a collection of a spell. Spell Book is responsible for add more spell inside
+            or Fetch some certain spell
+            </summary>
+        </member>
+        <member name="T:Adedriloth_GUI.Teleportation">
+            <summary>
+            Teleportation is a type of spell, which help the hero move to any targeted location when the cast is success.
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.Teleportation.#ctor(Adedriloth_GUI.SkillLevel)">
+            <summary>
+            Initialize the Teleporatino identifier, name and description
+            </summary>
+            <param name="sLev"></param>
+        </member>
+        <member name="M:Adedriloth_GUI.Teleportation.Cast(System.Object,System.Object)">
+            <summary>
+            check if the Cast is success, then move the hero to targeted location
+            else, move the player to random location and return the result
+            </summary>
+            <param name="h">hero which is affected by this spell</param>
+            <param name="obj">Targetted Location, which hero want to teleport to</param>
+            <returns></returns>
+        </member>
+        <member name="T:Adedriloth_GUI.BreakableKey">
+            <summary>
+            BreakableKey is kind of a key, that use to unlock door, however, after use once, it automatically disappear
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.BreakableKey.#ctor(System.String[],System.String)">
+            <summary>
+            Initialize the KeyCode from the ID
+            </summary>
+            <param name="ids"></param>
+            <param name="name"></param>
+        </member>
+        <member name="M:Adedriloth_GUI.BreakableKey.Use(Adedriloth_GUI.Door)">
+            <summary>
+            Pass itself as an object to the door to unlock it
+            </summary>
+            <param name="d">door object, which will be unlock</param>
+            <returns></returns>
+        </member>
+        <member name="T:Adedriloth_GUI.Character">
+            <summary>
+            Abstract Class for moveable objects: Hero and Enemy, has health and able to destroy
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.Character.Health">
+            <summary>
+            The health of the character
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.Character.Location">
+            <summary>
+            The Location of the character
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.Character.Hit(Adedriloth_GUI.Character)">
+            <summary>
+            Abstract for the child class
+            </summary>
+            <param name="c"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Adedriloth_GUI.Character.Destroyed(Adedriloth_GUI.Character)">
+            <summary>
+            Abstract method for deverrided class
+            </summary>
+            <param name="c"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Adedriloth_GUI.Character.HitTaken(System.Int32)">
+            <summary>
+            Damage the character and if the hp is lower than 0, destroy itself
+            </summary>
+            <param name="damage">the amount of damge, which deduce the character health</param>
+        </member>
+        <member name="P:Adedriloth_GUI.Character.Damage">
+            <summary>
+            Damage of the character
+            </summary>
+        </member>
+        <member name="T:Adedriloth_GUI.Door">
+            <summary>
+            Door can block the move ability of hero, required the Hero to unlock it before able to move through
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.Door.#ctor(System.String[],Adedriloth_GUI.Location)">
+            <summary>
+            initialize the keycode based on its id
+            </summary>
+            <param name="ids"></param>
+            <param name="dest"></param>
+        </member>
+        <member name="M:Adedriloth_GUI.Door.Unlock(Adedriloth_GUI.GameObject)">
+            <summary>
+            Checking for the valid key, correct key code and unlock the door
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Adedriloth_GUI.Door.MoveTo(Adedriloth_GUI.Hero)">
+            <summary>
+            Move the player to the desired destination, if the door is unlock
+            </summary>
+            <param name="p"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Adedriloth_GUI.Door.IsLocked">
+            <summary>
+            Return the locking state of the door
+            </summary>
+        </member>
+        <member name="T:Adedriloth_GUI.Monster">
+            <summary>
+            The normal enemy has all the details about himself 
+            (health, the location, Its able to attack, hits taken and if its destroyed)
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.Monster.Hit(Adedriloth_GUI.Character)">
+            <summary>
+            Attack the hero
+            </summary>
+            <param name="c">Hero</param>
+            <returns>Result of attack</returns>
+        </member>
+        <member name="T:Adedriloth_GUI.ExitCommand">
+            <summary>
+            Handle Exit Command
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.ExitCommand.Execute(Adedriloth_GUI.Hero,System.String[])">
+            <summary>
+            Process the command and produce the result
+            </summary>
+            <param name="p">the hero who make the command</param>
+            <param name="text">the command</param>
+            <returns></returns>
+        </member>
+        <member name="T:Adedriloth_GUI.GameManager">
+            <summary>
+            Game Manager responsible for creating and managing resources, Path, Location
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.GameManager.Instance">
+            <summary>
+            Singleton Patten: Game Manager Object Manage itself
+            </summary>
+        </member>
+        <member name="T:Adedriloth_GUI.Hero">
+            <summary>
+            Hero knows its Level and hero type, has its inventory
+            He is able to locate things in his inventory and able to be destroyed
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.Hero.HeroType">
+            <summary>
+            Hero Type
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.Hero.LocateSth(System.String)">
+            <summary>
+            Find and return Item
+            </summary>
+            <param name="id">Item's id</param>
+            <returns></returns>
+        </member>
+        <member name="P:Adedriloth_GUI.Hero.FullDescription">
+            <summary>
+            Hero's Full Description: Name, Hero Type, Items in Inventory, Location
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.Hero.Inventory">
+            <summary>
+            Hero's Inventory
+            </summary>
+        </member>
+        <member name="M:Adedriloth_GUI.Hero.Destroyed(Adedriloth_GUI.Character)">
+            <summary>
+            Return Message when hero die
+            </summary>
+            <param name="c"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Adedriloth_GUI.Hero.Hit(Adedriloth_GUI.Character)">
+            <summary>
+            Attack the enemy
+            </summary>
+            <param name="c">target</param>
+            <returns>result of attack</returns>
+        </member>
+        <member name="T:Adedriloth_GUI.Key">
+            <summary>
+            Key knows its keycode, can be used to unlock the door
+            </summary>
+        </member>
+        <member name="T:Adedriloth_GUI.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.Properties.Resources.beach">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.Properties.Resources.cave">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.Properties.Resources.door">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.Properties.Resources.forest">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.Properties.Resources.home">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.Properties.Resources.monster">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.Properties.Resources.mountain">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.Properties.Resources.mountain_pass_by_sabin_boykinov_d5fgno9">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.Properties.Resources.town">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.Properties.Resources.treasure">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Adedriloth_GUI.Properties.Resources.Wiki_background">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>

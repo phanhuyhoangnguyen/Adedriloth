@@ -1,0 +1,77 @@
+C:\Users\John.nguyen\Desktop\Adedriloth GUI\Adedriloth GUI\bin\Debug\Adedriloth GUI.exe.config
+C:\Users\John.nguyen\Desktop\Adedriloth GUI\Adedriloth GUI\bin\Debug\Adedriloth GUI.exe
+C:\Users\John.nguyen\Desktop\Adedriloth GUI\Adedriloth GUI\bin\Debug\Adedriloth GUI.pdb
+C:\Users\John.nguyen\Desktop\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth GUI.csprojResolveAssemblyReference.cache
+C:\Users\John.nguyen\Desktop\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth_GUI.Form1.resources
+C:\Users\John.nguyen\Desktop\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth_GUI.Properties.Resources.resources
+C:\Users\John.nguyen\Desktop\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth GUI.csproj.GenerateResource.Cache
+C:\Users\John.nguyen\Desktop\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth GUI.exe
+C:\Users\John.nguyen\Desktop\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth GUI.pdb
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth GUI.csprojResolveAssemblyReference.cache
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth_GUI.AdedrilothFm.resources
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth_GUI.Properties.Resources.resources
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth GUI.csproj.GenerateResource.Cache
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth GUI.exe
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth GUI.pdb
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth\Adedriloth GUI\Adedriloth GUI\bin\Debug\Adedriloth GUI.exe.config
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth\Adedriloth GUI\Adedriloth GUI\bin\Debug\Adedriloth GUI.exe
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth\Adedriloth GUI\Adedriloth GUI\bin\Debug\Adedriloth GUI.pdb
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI\Adedriloth GUI\bin\Debug\Adedriloth GUI.exe.config
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI\Adedriloth GUI\bin\Debug\Adedriloth GUI.exe
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI\Adedriloth GUI\bin\Debug\Adedriloth GUI.pdb
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth GUI.csprojResolveAssemblyReference.cache
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth_GUI.AdedrilothFm.resources
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth_GUI.Properties.Resources.resources
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth GUI.csproj.GenerateResource.Cache
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth GUI.exe
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI\Adedriloth GUI\obj\Debug\Adedriloth GUI.pdb
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI - Large\Adedriloth GUI\bin\Debug\Adedriloth GUI.exe.config
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI - Large\Adedriloth GUI\bin\Debug\Adedriloth GUI.exe
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI - Large\Adedriloth GUI\bin\Debug\Adedriloth GUI.pdb
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI - Large\Adedriloth GUI\obj\Debug\Adedriloth GUI.csprojResolveAssemblyReference.cache
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI - Large\Adedriloth GUI\obj\Debug\Adedriloth_GUI.AdedrilothFm.resources
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI - Large\Adedriloth GUI\obj\Debug\Adedriloth_GUI.Properties.Resources.resources
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI - Large\Adedriloth GUI\obj\Debug\Adedriloth GUI.csproj.GenerateResource.Cache
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI - Large\Adedriloth GUI\obj\Debug\Adedriloth GUI.exe
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI - Large\Adedriloth GUI\obj\Debug\Adedriloth GUI.pdb
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.3C-resources\Adedriloth GUI - Large\Adedriloth GUI\bin\Debug\Adedriloth GUI.xml
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large\Adedriloth GUI\bin\Debug\Adedriloth GUI.exe.config
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large\Adedriloth GUI\bin\Debug\Adedriloth GUI.xml
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large\Adedriloth GUI\bin\Debug\Adedriloth GUI.exe
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large\Adedriloth GUI\bin\Debug\Adedriloth GUI.pdb
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large\Adedriloth GUI\obj\Debug\Adedriloth GUI.csprojResolveAssemblyReference.cache
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large\Adedriloth GUI\obj\Debug\Adedriloth_GUI.AdedrilothFm.resources
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large\Adedriloth GUI\obj\Debug\Adedriloth_GUI.Properties.Resources.resources
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large\Adedriloth GUI\obj\Debug\Adedriloth GUI.csproj.GenerateResource.Cache
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large\Adedriloth GUI\obj\Debug\Adedriloth GUI.exe
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large\Adedriloth GUI\obj\Debug\Adedriloth GUI.pdb
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\obj\Debug\Adedriloth GUI.csprojResolveAssemblyReference.cache
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\obj\Debug\Adedriloth_GUI.AdedrilothFm.resources
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\obj\Debug\Adedriloth_GUI.Properties.Resources.resources
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\obj\Debug\Adedriloth GUI.csproj.GenerateResource.Cache
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\obj\Debug\Adedriloth GUI.exe
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\obj\Debug\Adedriloth GUI.pdb
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\bin\Debug\Adedriloth GUI.exe.config
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\bin\Debug\Adedriloth GUI.xml
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\bin\Debug\Adedriloth GUI.exe
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\bin\Debug\Adedriloth GUI.pdb
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly - Copy\Adedriloth GUI\bin\Debug\Adedriloth GUI.exe.config
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly - Copy\Adedriloth GUI\bin\Debug\Adedriloth GUI.xml
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly - Copy\Adedriloth GUI\bin\Debug\Adedriloth GUI.exe
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly - Copy\Adedriloth GUI\bin\Debug\Adedriloth GUI.pdb
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly - Copy\Adedriloth GUI\obj\Debug\Adedriloth GUI.csprojResolveAssemblyReference.cache
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly - Copy\Adedriloth GUI\obj\Debug\Adedriloth_GUI.AdedrilothFm.resources
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly - Copy\Adedriloth GUI\obj\Debug\Adedriloth_GUI.Properties.Resources.resources
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly - Copy\Adedriloth GUI\obj\Debug\Adedriloth GUI.csproj.GenerateResource.Cache
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly - Copy\Adedriloth GUI\obj\Debug\Adedriloth GUI.exe
+D:\Mark Backup\Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly - Copy\Adedriloth GUI\obj\Debug\Adedriloth GUI.pdb
+D:\Documents\Universities\Bachelor of Computer Science\2nd Year\Sem 1\COS20007 - Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\obj\Debug\Adedriloth_GUI.AdedrilothFm.resources
+D:\Documents\Universities\Bachelor of Computer Science\2nd Year\Sem 1\COS20007 - Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\obj\Debug\Adedriloth_GUI.Properties.Resources.resources
+D:\Documents\Universities\Bachelor of Computer Science\2nd Year\Sem 1\COS20007 - Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\obj\Debug\Adedriloth GUI.csproj.GenerateResource.cache
+D:\Documents\Universities\Bachelor of Computer Science\2nd Year\Sem 1\COS20007 - Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\obj\Debug\Adedriloth GUI.csproj.CoreCompileInputs.cache
+D:\Documents\Universities\Bachelor of Computer Science\2nd Year\Sem 1\COS20007 - Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\bin\Debug\Adedriloth GUI.exe.config
+D:\Documents\Universities\Bachelor of Computer Science\2nd Year\Sem 1\COS20007 - Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\bin\Debug\Adedriloth GUI.xml
+D:\Documents\Universities\Bachelor of Computer Science\2nd Year\Sem 1\COS20007 - Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\bin\Debug\Adedriloth GUI.exe
+D:\Documents\Universities\Bachelor of Computer Science\2nd Year\Sem 1\COS20007 - Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\bin\Debug\Adedriloth GUI.pdb
+D:\Documents\Universities\Bachelor of Computer Science\2nd Year\Sem 1\COS20007 - Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\obj\Debug\Adedriloth GUI.exe
+D:\Documents\Universities\Bachelor of Computer Science\2nd Year\Sem 1\COS20007 - Object Oriented Progamming\Tutorial & Lab\Lab 6\6.4 D\Adedriloth GUI - Large - Poly\Adedriloth GUI\obj\Debug\Adedriloth GUI.pdb
